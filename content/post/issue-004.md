@@ -3,7 +3,7 @@ title: "每周分享·第4期"
 date: 2019-03-10T00:00:00+08:00
 lastmod: 2019-03-10T23:59:59+08:00
 draft: false
-tags: ["Rust","Go","内存分配","编译器","Flutter"]
+tags: ["Rust","Go","内存分配","编译器","Flutter","MySQL"]
 categories: ["技术分享"]
 author: "Walker"
 toc: false
@@ -44,6 +44,16 @@ Cloudflare公司开源的用于解析Wireshark过滤器语法，并将它们编�
 使用trait对象动态分发和闭包来避免实现JIT而带来的一些问题。动态分发的执行效率出乎他们的意料。
 选择使用Rust语言实现，对于支持WASM提供了巨大的方便。
 该库已经用于Cloudflare公司的生产项目。
+
+#### [MySQL 大表优化方案](https://segmentfault.com/a/1190000006158186)
+
+当MySQL单表记录数过大时，增删改查性能都会急剧下降，可以参考其中的步骤来优化
+
+#### [Leaf：美团分布式ID生成服务开源](https://segmentfault.com/a/1190000018436227)
+
+![Leaf：美团分布式ID生成服务开源](/img/leaf.png)
+
+Leaf是美团基础研发平台推出的一个分布式ID生成服务，名字取自德国哲学家、数学家莱布尼茨的一句话：“There are no two identical leaves in the world.”Leaf具备高可靠、低延迟、全局唯一等特点。目前已经广泛应用于美团金融、美团外卖、美团酒旅等多个部门。
 
 #### [百度的春晚战事](https://mp.weixin.qq.com/s?__biz=MzU0NDEwMTc1MA==&mid=2247491861&idx=1&sn=5be51315f84079d798db03bf731ebd17)
 
