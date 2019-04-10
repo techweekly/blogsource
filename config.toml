@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://techweekly.github.io/"
 languageCode = "en"
 defaultContentLanguage = "zh-cn"                             # en / zh-cn / ... (This field determines which i18n file to use)
 title = "TechWeekly - 一个共享知识的地方"
